@@ -9,7 +9,7 @@ jobs:
   buildAUR:
     strategy:
       matrix:
-        repos: [wine-wow64, wine-staging-wow64]
+        repos: [wine-wow64, wine-staging-wow64, wine-wow64-for-wechat]
         include:
           - repos: git-cola
             preinstall-pkgs: "at-spi2-core"
