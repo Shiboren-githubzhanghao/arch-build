@@ -9,7 +9,7 @@ jobs:
   buildAUR:
     strategy:
       matrix:
-        repos: [osu-lazer, weechat-notify-send, fpp, redsocks, drill, git-cola, realesrgan-ncnn-vulkan, python-torchaudio, python-torchinfo]
+        repos: [wine-wow64, wine-staging-wow64]
         include:
           - repos: git-cola
             preinstall-pkgs: "at-spi2-core"
