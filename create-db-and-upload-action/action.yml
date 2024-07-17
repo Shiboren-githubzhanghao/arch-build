@@ -19,7 +19,7 @@ inputs:
   gpg-privatekey:
     description: 'Your GPG private key, used to sign repo.'
   local_path:
-    default: './'
+    default: '..'
 runs:
   using: 'docker'
   image: 'Dockerfile'
